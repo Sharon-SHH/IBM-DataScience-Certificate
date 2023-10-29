@@ -16,15 +16,25 @@
 
 Type: 
 
-```
+| Pandas Type           | Native Python Type | Description                      |
+| --------------------- | ------------------ | -------------------------------- |
+| object                | string             | Numbers and strings              |
+| int64                 | int                | Numeric characters               |
+| float64               | float              | numeric characters with decimals |
+| Datetime64, timedelta | N/A                | time data                        |
+
+```python
 compression-ratio			float64
 horsepower            object
 highway-mpg            int64
+time data 						Datetime64
 ```
 
-<img src="../AWS/AWS/img/image-20231028101413250.png" alt="image-20231028101413250" style="zoom:50%;" />
 
-<img src="../AWS/AWS/img/image-20231028102152527.png" alt="image-20231028102152527" style="zoom:50%;" /><img src="../AWS/AWS/img/image-20231028102112109.png" alt="image-20231028102112109" style="zoom:50%;" />
+
+<img src="./img/image-20231028102152527.png" alt="image-20231028102152527" style="zoom:50%;" />
+
+<img src="./img/image-20231028102112109.png" alt="image-20231028102112109" style="zoom:50%;" />
 
 ### Data Wragling
 
@@ -45,7 +55,7 @@ Replace the missing values
 
 Leave it as missing data 
 
-<img src="../AWS/AWS/img/image-20231027152734774.png" alt="image-20231027152734774" style="zoom:50%;" />
+<img src="./img/image-20231027152734774.png" alt="image-20231027152734774" style="zoom:50%;" />
 
 ```python
 mean = df["normalized-losses"].mean()
@@ -87,7 +97,7 @@ Several approaches for normalization:
 
 **Simple Feature scaling, Min-Max, Z-score**
 
-<img src="../AWS/AWS/img/image-20231028103921227.png" alt="image-20231028103921227" style="zoom:50%;" />
+<img src="./img/image-20231028103921227.png" alt="image-20231028103921227" style="zoom:50%;" />
 
 ```python
 df ["length"] = df ["length"] / df ["length"].max()
@@ -105,9 +115,10 @@ df ["length"] = (df ["length"]-df ["length"].mean()) /df ["length"].std()
 
 - Using **Histograms** to visualize the bins
 
-  <img src="../AWS/AWS/img/image-20231028104956798.png" alt="image-20231028104956798" style="zoom:50%;" />
 
 ```python
+# price: 5000, 10000, 12000, 12000. 30000, 31000, 39000, 44000, 44500
+# bins:   low, mid, high
 bins = np.linspace(min(df["price"]), max(df["price"]), 4)
 group_names = ["Low", "Medium", "High"]
 df["price-binned"] = pd.cut(df["price"], bins, labels=group_names, include_lowest=True)
@@ -123,11 +134,11 @@ Solution:
 Dummy variables in Python pandas
 
 - ﻿﻿Use **pandas.get_dummies()** method.
-- ﻿﻿Convert categorical variables to dummy variables (0 or 1)
-
-<img src="../AWS/AWS/img/image-20231028105553496.png" alt="image-20231028105553496" style="zoom:50%;" />
+- ﻿﻿Convert categorical variables to dummy variables (0 or 1)<img src="./img/image-20231028105553496.png" alt="image-20231028105553496" style="zoom:50%;" />
 
 ```python
+#df['fuel'] >> has two values: gas, diesel
+# df['gas']: 1; df['diesel']:0
 pd.get_dummies(df['fuel'])
 ```
 
