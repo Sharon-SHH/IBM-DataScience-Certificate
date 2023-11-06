@@ -215,3 +215,14 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 ```
 
+
+
+```python
+gme_revenues = pd.read_html(str(soup))
+gme_revenue = gme_revenues[0]
+gme_revenue.columns=['Date', 'Revenue']
+gme_revenue['Revenue'] = gme_revenue['Revenue'].str.replace(',|\$', "")
+gme_revenue.dropna(inplace=True)
+gme_revenue = gme_revenue[gme_revenue['Revenue'] != ""]
+```
+
