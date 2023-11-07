@@ -1,4 +1,20 @@
+# What is Data Science
 
+### <a href="#da">Data Source</a>
+
+### <a href="#datamining">Data Mining and Big Data</a>
+
+### <a href="#genetiveAI">Genetive Ai, Machine Learning and Deep Learning</a>
+
+### <a href="#ds">DS Career</a>
+
+### <a href="#explore">Explore a DS Job</a>
+
+### <a href="#glossary">Glossary</a>
+
+
+
+## <a id="da">Data Source</a>
 
 ### Data Type
 
@@ -30,7 +46,11 @@ Delimiter - A sequence of one or more characters for specifying the boundary bet
 - ﻿﻿Compatible with a wide range of browsers
 - ﻿﻿Considered as one of the best tools for sharing data
 
-### Big Data and Data Mining
+
+
+## <a id="datamining">Data Mining and Big Data</a>
+
+### Data Mining and Big Data
 
 In the 'Big Data and Data Mining' lesson, delve into the world of digital transformation driven by Big Data. Explore Cloud Computing's role, foundational Big Data concepts, tools like Hadoop and Spark, and gain insights into Data Mining techniques for informed decision-making.
 
@@ -50,7 +70,7 @@ In the 'Big Data and Data Mining' lesson, delve into the world of digital transf
 
 ### Data Mining
 
-# Establishing Data Mining Goals
+#### Establishing Data Mining Goals
 
 Key questions: 
 
@@ -58,13 +78,13 @@ Key questions:
 - determine the expected level of accuracy and usefulness of the results obtained from data mining.
 - the cost-benefit trade-offs for the desired level of accuracy are important considerations for data mining goals
 
-## Selecting Data
+#### Selecting Data
 
 The output of data mining depends upon: the quality of data being used.
 
 The type of data, its size, and frequency of collection have --- a direct bearing on the cost of data mining exercise.
 
-## Preprocessing Data
+#### Preprocessing Data
 
 - you identify the **irrelevant attributes** of data and **expunge** such attributes from further consideration.
 -  identifying the **erroneous aspects** of the data set and **flagging** them as such is necessary.
@@ -74,22 +94,22 @@ The type of data, its size, and frequency of collection have --- a direct bearin
 
 For instance, a particular subset of individuals in a large data set may have refused to disclose their income. Findings relying on an individual's income as input would exclude details of those individuals whose income was not reported. This would lead to systematic biases in the analysis. 
 
-## Transforming Data
+#### Transforming Data
 
 - **Data reduction** algorithms, can reduce the number of attributes without a significant loss in information. such as <u>Principal Component Analysis</u> 
 - Develop a representative indicator - aggregating income (wage income, rental properties, support payments etc.) 
 - Transform variables from one type to another. (continuous variable --> a categorical variable: low, medium, high-income)
 
-## Storing Data
+#### Storing Data
 
 - store data in a format, keep it secure, avoid data scattered on different servers for data mining algorithm
 - Data safety and privacy should be a prime concern for storing data.
 
-## Mining Data
+#### Mining Data
 
 This step covers <u>data analysis methods</u>, including **parametric and non-parametric methods,** and machine-learning algorithms. A good starting point for data mining is **data visualization**. Multidimensional views of the data using the advanced graphing capabilities of data mining software are very helpful in developing a preliminary understanding of the trends hidden in the data set.
 
-## Evaluating Mining Results
+#### Evaluating Mining Results
 
 Do a formal evaluation of the results.
 
@@ -144,12 +164,108 @@ Data mining and evaluating the results becomes an iterative process such that th
   Spark is a general-purpose **data processing engine** designed to **extract and process large volumes of data** for a wide range of applications.
 
   - ﻿﻿Interactive Analytics, Streams Processing, Machine Learning, ﻿﻿Data Integration, ETL
+  
+  The ultimate purpose of analytics is to summarize findings in tables and plots for effective communication of insights and findings. The content highlights that big data clusters distribute data to many computers for parallel processing.
 
 
 
- The ultimate purpose of analytics is to summarize findings in tables and plots for effective communication of insights and findings.
+## <a id="genetiveAI">Genetive Ai, Machine Learning and Deep Learning</a>
 
-The content highlights that big data clusters distribute data to many computers for parallel processing.
+### Genetive AI, Machine Learning and Deep Learning
+
+- Big Data has five characteristics: velocity, volume, integrity, and value.
+- The five cloud computing characteristics are scalability, collaboration, accessibility, and software maintenance.
+- Data mining has a six-step process: goal setting, selecting data sources, preprocessing, transforming, mining, and evaluation. 
+- The availability of so many disparate amounts of data created by people, tools, and machines requires new, innovative, and scalable technology to drive transformation.
+- Deep learning utilizes neural networks to teach itself patterns in inputs and outputs. Machine learning is a subset of AI that uses computer algorithms to learn about data and make predictions without explicitly programming the analysis methods into the system.  
+- Regression identifies the strength and amount of the correlation between one or more inputs and an output.
+- Skills involved in processing Big Data include the application of statistics, machine learning models, and some computer programming.
+- Generative AI, a subset of artificial intelligence, focuses on producing new data rather than just analyzing existing data. It allows machines to create content, including images, music, language, computer code, and more, mimicking creations by people.
+
+
+
+## <a id="ds">DS Career</a>
+
+### The Report Structure
+
+Curiocity, humous sense, technical skills.
+
+Learn math, statistics, new tech.
+
+### Recruiter desire skills:
+
+- Domain-specific knowledge
+- Analyzing both structured and unstructured data
+- Presenting and storytelling
+
+### Should Look for the Person who has the following Skills
+
+- Excitement to work with data
+  - Excitement to work with data in their industry, Ask good questions
+
+- Logic Mind
+  	- Think analytically and computationally
+  	- Background in mathematics, statistics, and probability
+- Computer Programming
+  - Python, R, Data Storage (SQL), Manipulate Data (Pandas), Algorithms
+- Creating the narrative
+  - Communicating, Instructing, Presenting, Storytelling, Synthesizing
+- Reporting
+  - What is gained, Defined goals, Significance, Context, Practicality and usefulness, Future developments
+
+### Have You Done Your Job as a Writer?
+
+As a data scientist, you are expected to do thorough analysis with the appropriate data, deploying the appropriate tools. As a writer, you are responsible for communicating your findings to the readers. Transport Policy, a leading research publication in transportation planning, offers a checklist for authors interested in publishing with the journal. The checklist is a series of questions authors are expected to consider before submitting their manuscripts to the journal. I believe the checklist is useful for budding data scientists and, therefore, I have reproduced it verbatim for their benefit.
+
+- Have you told readers, at the outset, what they might gain by reading your paper?
+- Have you made the aim of your work clear?
+- Have you explained the significance of your contribution?
+- Have you set your work in the appropriate context by giving sufficient background (including a complete set of relevant references) to your work?
+- Have you addressed the question of practicality and usefulness?
+- Have you identified future developments that might result from your work?
+- Have you structured your paper in a clear and logical fashion?
+
+
+
+## <a id="explore">Explore a DS Job</a>
+
+Identify the following aspects of data science job post:
+
+1. What is the company name that is advertising the job?
+2. What is the job title?
+3. Where is the role located?
+4. What is the expected salary or salary range?
+5. What is the total number of results from the search for the job post?
+6. What is one technical responsibility from the job post related to something you learned about in this course?
+7. What are two required technical skills from the job post?
+8. What are at least two ideas or concepts you learned about in this course relevant to these job posts?
+
+
+
+## <a id="glossary">Glossary</a>
+
+### Deep Learning and Machine Learning Lesson Glossary
+
+Welcome! This alphabetized glossary contains many of the terms in this course. These terms are important for you to recognize when working in the industry, participating in user groups, and participating in other certificate programs.
+
+| Term                              | Definition                                                   | Video where the term is introduced       |
+| --------------------------------- | ------------------------------------------------------------ | ---------------------------------------- |
+| Artificial Neural Networks        | Collections of small computing units (neurons) that process data and learn to make decisions over time. | Artificial Intelligence and Data Science |
+| Bayesian Analysis                 | A statistical technique that uses Bayes' theorem to update probabilities based on new evidence. | Applications of Machine Learning         |
+| Business Insights                 | Accurate insights and reports generated by generative AI can be updated as data evolves, enhancing decision-making and uncovering hidden patterns. | Generative AI and Data Science           |
+| Cluster Analysis                  | The process of grouping similar data points together based on certain features or attributes. | Neural Networks and Deep Learning        |
+| Coding Automation                 | Using generative AI to automatically generate and test software code for constructing analytical models, freeing data scientists to focus on higher-level tasks. | Generative AI and Data Science           |
+| Data Mining                       | The process of automatically searching and analyzing data to discover patterns and insights that were previously unknown. | Artificial Intelligence and Data Science |
+| Decision Trees                    | A type of machine learning algorithm used for decision-making by creating a tree-like structure of decisions. | Applications of Machine Learning         |
+| Deep Learning Models              | Includes Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs) that create new data instances by learning patterns from large datasets. | Generative AI and Data Science           |
+| Five V's of Big Data              | Characteristics used to describe big data: Velocity, volume, variety, veracity, and value. | Neural Networks and Deep Learning        |
+| Generative AI                     | A subset of AI that focuses on creating new data, such as images, music, text, or code, rather than just analyzing existing data. | Generative AI and Data Science           |
+| Market Basket Analysis            | Analyzing which goods tend to be bought together is often used for marketing insights. | Neural Networks and Deep Learning        |
+| Naive Bayes                       | A simple probabilistic classification algorithm based on Bayes' theorem. | Applications of Machine Learning         |
+| Natural Language Processing (NLP) | A field of AI that enables machines to understand, generate, and interact with human language, revolutionizing content creation and chatbots. | Generative AI and Data Science           |
+| Precision vs. Recall              | Metrics are used to evaluate the performance of classification models. | Applications of Machine Learning         |
+| Predictive Analytics              | Using machine learning techniques to predict future outcomes or events. | Neural Networks and Deep Learning        |
+| Synthetic Data                    | Artificially generated data with properties similar to real data, used by data scientists to augment their datasets and improve model training. | Generative AI and Data Science           |
 
 
 
@@ -196,104 +312,4 @@ Welcome! This glossary contains many of the terms in this lesson. These terms ar
 | Video Tracking System                 | A system used to capture and analyze video data from games, enabling in-depth analysis of player movements and game dynamics, contributing to data-driven decision-making in sports. | How Big Data is Driving Digital Transformation           |
 | Volume                                | The scale of data generated and stored is driven by increased data sources, higher-resolution sensors, and scalable infrastructure. | Foundations of Big Data                                  |
 | V's of Big Data                       | A set of characteristics common across Big Data definitions, including Velocity, Volume, Variety, Veracity, and Value, highlighting the rapid generation, scale, diversity, quality, and value of data. | Foundations of Big Data                                  |
-
-
-
-
-
-## Genetive AI, Machine Learning and Deep Learning
-
-- Big Data has five characteristics: velocity, volume, integrity, and value.
-- The five cloud computing characteristics are scalability, collaboration, accessibility, and software maintenance.
-- Data mining has a six-step process: goal setting, selecting data sources, preprocessing, transforming, mining, and evaluation. 
-- The availability of so many disparate amounts of data created by people, tools, and machines requires new, innovative, and scalable technology to drive transformation.
-- Deep learning utilizes neural networks to teach itself patterns in inputs and outputs. Machine learning is a subset of AI that uses computer algorithms to learn about data and make predictions without explicitly programming the analysis methods into the system.  
-- Regression identifies the strength and amount of the correlation between one or more inputs and an output.
-- Skills involved in processing Big Data include the application of statistics, machine learning models, and some computer programming.
-- Generative AI, a subset of artificial intelligence, focuses on producing new data rather than just analyzing existing data. It allows machines to create content, including images, music, language, computer code, and more, mimicking creations by people.
-
-
-
-### Deep Learning and Machine Learning Lesson Glossary
-
-Welcome! This alphabetized glossary contains many of the terms in this course. These terms are important for you to recognize when working in the industry, participating in user groups, and participating in other certificate programs.
-
-| Term                              | Definition                                                   | Video where the term is introduced       |
-| --------------------------------- | ------------------------------------------------------------ | ---------------------------------------- |
-| Artificial Neural Networks        | Collections of small computing units (neurons) that process data and learn to make decisions over time. | Artificial Intelligence and Data Science |
-| Bayesian Analysis                 | A statistical technique that uses Bayes' theorem to update probabilities based on new evidence. | Applications of Machine Learning         |
-| Business Insights                 | Accurate insights and reports generated by generative AI can be updated as data evolves, enhancing decision-making and uncovering hidden patterns. | Generative AI and Data Science           |
-| Cluster Analysis                  | The process of grouping similar data points together based on certain features or attributes. | Neural Networks and Deep Learning        |
-| Coding Automation                 | Using generative AI to automatically generate and test software code for constructing analytical models, freeing data scientists to focus on higher-level tasks. | Generative AI and Data Science           |
-| Data Mining                       | The process of automatically searching and analyzing data to discover patterns and insights that were previously unknown. | Artificial Intelligence and Data Science |
-| Decision Trees                    | A type of machine learning algorithm used for decision-making by creating a tree-like structure of decisions. | Applications of Machine Learning         |
-| Deep Learning Models              | Includes Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs) that create new data instances by learning patterns from large datasets. | Generative AI and Data Science           |
-| Five V's of Big Data              | Characteristics used to describe big data: Velocity, volume, variety, veracity, and value. | Neural Networks and Deep Learning        |
-| Generative AI                     | A subset of AI that focuses on creating new data, such as images, music, text, or code, rather than just analyzing existing data. | Generative AI and Data Science           |
-| Market Basket Analysis            | Analyzing which goods tend to be bought together is often used for marketing insights. | Neural Networks and Deep Learning        |
-| Naive Bayes                       | A simple probabilistic classification algorithm based on Bayes' theorem. | Applications of Machine Learning         |
-| Natural Language Processing (NLP) | A field of AI that enables machines to understand, generate, and interact with human language, revolutionizing content creation and chatbots. | Generative AI and Data Science           |
-| Precision vs. Recall              | Metrics are used to evaluate the performance of classification models. | Applications of Machine Learning         |
-| Predictive Analytics              | Using machine learning techniques to predict future outcomes or events. | Neural Networks and Deep Learning        |
-| Synthetic Data                    | Artificially generated data with properties similar to real data, used by data scientists to augment their datasets and improve model training. | Generative AI and Data Science           |
-
-
-
-### DS Career
-
-### The Report Structure
-
-Curiocity, humous sense, technical skills.
-
-Learn math, statistics, new tech.
-
-### Recruiter desire skills:
-
-- Domain-specific knowledge
-- Analyzing both structured and unstructured data
-- Presenting and storytelling
-
-### Should Look for the Person who has the following Skills
-
-- Excitement to work with data
-  - Excitement to work with data in their industry, Ask good questions
-
-- Logic Mind
-  	- Think analytically and computationally
-  	- Background in mathematics, statistics, and probability
-- Computer Programming
-  - Python, R, Data Storage (SQL), Manipulate Data (Pandas), Algorithms
-- Creating the narrative
-  - Communicating, Instructing, Presenting, Storytelling, Synthesizing
-- Reporting
-  - What is gained, Defined goals, Significance, Context, Practicality and usefulness, Future developments
-
-### Have You Done Your Job as a Writer?
-
-As a data scientist, you are expected to do thorough analysis with the appropriate data, deploying the appropriate tools. As a writer, you are responsible for communicating your findings to the readers. Transport Policy, a leading research publication in transportation planning, offers a checklist for authors interested in publishing with the journal. The checklist is a series of questions authors are expected to consider before submitting their manuscripts to the journal. I believe the checklist is useful for budding data scientists and, therefore, I have reproduced it verbatim for their benefit.
-
-- Have you told readers, at the outset, what they might gain by reading your paper?
-- Have you made the aim of your work clear?
-- Have you explained the significance of your contribution?
-- Have you set your work in the appropriate context by giving sufficient background (including a complete set of relevant references) to your work?
-- Have you addressed the question of practicality and usefulness?
-- Have you identified future developments that might result from your work?
-- Have you structured your paper in a clear and logical fashion?
-
-## Explore a DS job
-
-Identify the following aspects of data science job post:
-
-1. What is the company name that is advertising the job?
-2. What is the job title?
-3. Where is the role located?
-4. What is the expected salary or salary range?
-5. What is the total number of results from the search for the job post?
-6. What is one technical responsibility from the job post related to something you learned about in this course?
-7. What are two required technical skills from the job post?
-8. What are at least two ideas or concepts you learned about in this course relevant to these job posts?
-
-
-
-
 
