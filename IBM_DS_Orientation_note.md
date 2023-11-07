@@ -4,7 +4,7 @@
 
 ### <a href="#datamining">Data Mining and Big Data</a>
 
-### <a href="#genetiveAI">Genetive Ai, Machine Learning and Deep Learning</a>
+### <a href="#genetive">Genetive Ai, Machine Learning and Deep Learning</a>
 
 ### <a href="#ds">DS Career</a>
 
@@ -169,7 +169,7 @@ Data mining and evaluating the results becomes an iterative process such that th
 
 
 
-## <a id="genetiveAI">Genetive Ai, Machine Learning and Deep Learning</a>
+## <a id="genetive">Genetive Ai, Machine Learning and Deep Learning</a>
 
 ### Genetive AI, Machine Learning and Deep Learning
 
