@@ -336,7 +336,7 @@ app.layout = html.Div(children=[ html.H1('Airline Dashboard', style={'textAlign'
 Input(component_id='input-yr', component_property='value'))
 def get_graph (entered_year):
 	# Select data
-	df = airline_data[airline_data ['Year']==int (entered_year)]
+	df = airline_data[airline_data['Year']==int (entered_year)]
 	# Top 10 airline carrier in terms of number of flights
 	g1 = df. groupby (['Reporting_Airline']) ['Flights'].sum().nlargest (10). reset_index ()
 	# Plot the graph
@@ -347,7 +347,30 @@ if __name__ == '__main__':
 	app.run_server (port=8002, host='127.0.0.1', debug=True)
 ```
 
+```python
+app = dash.Dash()
+# Design dash app layout
+app.layout = html.Div(children=[html.H1('Airline Dashboard', style={'textAlign': 'center',
+																	'color': colors['text'], 'font-size': 40}), 
+                                html.Div(["Year: ", dcc.Input(id='input-yr', value= '2010', type='number', style={'height': '50px', 'font-size': 35}), ]. style={'font-size': 40}),
+																html.Div(["State Abbreviation: ", dcc.Input (id='input-ab' value='AL', type='text', style={'height': '50px','font-size': 35})], style={'font-size': 40}), 
+                                html.Br(), html.Br(), 
+                                html.Div (dcc.Graph(id='bar-plot')),])
+@app.callback( Output(component_id='bar-plot', component_property='figure'),
+								[Input(component_id='input-yr', component_property='value'),
+									Input(component_id='input-ab', component_property='value')])
+def get_graph(entered_year, entered_state):
+	# Select data
+	di = airline_data[(airline_data ['Year']==int (entered_year)) &						
+                    (airline_data['OriginState'] == entered_state)]
+	# Top 10 airline carrier in terms of number of flights
+	fig1.update_layout()
+	return fig1
+if __name__ == "__main__":
+	app.run_server (port=8002, host='127.0.0.1', debug=True)
+```
 
+<img src="img/image-20231121215318094.png" alt="image-20231121215318094" style="zoom:50%;" />
 
 ### Summarize
 
