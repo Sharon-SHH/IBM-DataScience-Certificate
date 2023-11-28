@@ -25,7 +25,7 @@ The data science ecosystem consists of many open source and commercial options, 
 - MongoDB and Apache Cassandra are examples of NoSQL databases.
 - Apache Hadoop and Apache Spark are used for Big Data analytics. 
 
-**Data Integration and Transformation Tools:** include Apache Airflow and Apache Kafka. 
+**Data Integration and Transformation Tools:** include Apache Airflow and Apache Kafka, KubeFlow, Apache Nifi, Apache SparkSQL, and NodeRED
 
 **Data Visualization Tools:**  include commercial offerings  such as Cognos Analytics, Tableau and PowerBI  and can be used for building dynamic and interactive dashboards.  
 
@@ -33,12 +33,55 @@ The data science ecosystem consists of many open source and commercial options, 
 
 **Development Environments:** Popular development environments for Data Science include Jupyter Notebooks and RStudio. 
 
+<u>Model **deployment** tools</u> are Apache PredictionIO, Seldon, Kubernetes, Redhat OpenShift, Mleap, TensorFlow service, TensorFlow lite, and TensorFlow dot JS
+
 - Jupyter Notebooks provides an interactive environment for creating and sharing code, descriptive text, data visualizations, and other computational artifacts in a web-browser based interface.  
 - RStudio is an integrated development environment (IDE) designed specifically for working with the R programming language, which is a popular tool for statistical computing and data analysis.
 
 ![pipeline1](./img/pipeline1.png)
 
 ![pipeline2](./img/pipeline2.png)
+
+### Open Source Tools
+
+Apache Spark: 
+
+- Batch processing engine
+
+- Capable of processing huge amounts of data one by one or file by file
+
+- Choice for most use cases
+
+KNIME : Orange
+
+- Drag-and-drop capabilities
+
+- Built-in visualization capabilities
+
+- Can be extended by programming in R and Python
+
+- Has connectors to Apache Spark
+
+### Commercial Tools
+
+- ﻿﻿Data management tools are Oracle Database, Microsoft SQL Server, and IBM D62
+- ﻿﻿Data integration tools are mainly provided by Informatica PowerCenter, IBM InfoSphere DataStage. These are followed by products from SAP,
+- Oracle, SAS, Talend, Microsoft, and Watson Studio Desktop
+- ﻿﻿Model building tools are SPSS Modeler, and SAS enterprise miner
+- ﻿﻿Data asset management tools are provided by Informatica and IBM
+
+### Cloud based tools for DS
+
+- Watson Studio and Watson OpenScale cover the complete development life cycle for all data science, machine learning, and AI tasks 
+- In data management, with some exceptions, there exists a software-as-a-service (SaaS) version of existing open source and commercial tools
+
+- Two commercial data integration tools widely used are Informatica Cloud Data Integration and IBM's Data Refinery
+
+- An example of a cloud-based data visualization tool is Datameer and IBM's Congos Business intelligence suite
+
+- Model building can be done using a service such as Watson Machine Learning Amazon SageMaker Model Monitor is an example of a cloud tool to monitor deployed machine learning and deep learning models continuously
+
+
 
 ### Measures for in-sample evaluation
 
@@ -220,3 +263,278 @@ This module will bring awareness about the criteria determining which language y
 - Define SQL elements and list their benefits.
 - Review languages such as Java, Scala, C++, JavaScript, and Julia.
 - List the global communities for connecting with other users.
+
+### R Programming Language
+
+Who R is for?
+
+- Statisticians, mathematicians, and data miners for developing statistical software, graphing, and data analysis
+
+- Someone with no or minimal programming background
+
+- For learners with a data science career
+
+- R is popular in academia
+
+- Companies like IBM, Google, Facebook, Microsoft, Bank of America, Ford, TechCrunch, Uber, and Trulia
+
+### R Programming language & Other programming languages in DS
+
+- Python is open source, and R is free software
+
+- ﻿﻿R language's array-oriented syntax makes it easier to translate from math to code for learners with no or minimal programming background
+- ﻿R has become the world's largest repository of statistical knowledge.
+
+- R language’s array-oriented syntax makes it easier to translate from math to code for learners with no or minimal programming background.
+- SQL is different from other software development languages because it is a non-procedural language.
+- SQL was designed for managing data in relational databases. 
+- 
+
+- Data science tools built with Java include Weka, Java-ML, Apache MLlib, and Deeplearning4
+
+- For data science, popular program built with Scala is Apache Spark that includes Shark, MLlib, GraphX, and Spark Streaming 
+- For data science, TensorFlow, MongoDB and Caffe were built with C++
+- JavaScript includes TensorFlow.js and R.js
+- Julia and JuliaDB
+
+## Module 3
+
+### Community Data Licence Agreement
+
+- ﻿﻿CDLA-Sharing: Permission to use and modify data; publication only under the same terms
+- ﻿﻿CDLA-Permissive: Permission to use and modify data; no obligations
+
+### DAX:
+
+Curated collection of data sets:
+
+- ﻿﻿IBM Research data sets
+- ﻿﻿Trusted 3rd party data sets
+- ﻿﻿Ready for use in enterprise applications
+
+### Model Training
+
+- ﻿﻿Machine learning (ML) uses algorithms - also known as
+   "models" - to identify patterns in the data
+- ﻿﻿The process by which the model learns data patterns is called
+   "model training"
+- ﻿﻿Types of ML are Supervised, Unsupervised, and Reinforcement
+- ﻿﻿Supervised learning comprises two types of models, regression and classification
+- ﻿﻿Deep learning refers to a general set of models and techniques that loosely emulate the way the human brain solves a wide range of problems
+
+### Model Asset eXchange (MAX)
+
+- ﻿﻿The Model Asset eXchange is a free open source repository for ready-to-use and customizable deep learning microservices
+- ﻿﻿To reduce time to value, consider taking advantage of pre-trained models for certain types of problems
+- ﻿﻿MAX model-serving microservices are built and distributed on
+   GitHub as open source Docker images
+- ﻿﻿Red Hat OpenShift is a Kubernetes platform used to automate deployment, scaling, and management of microservices
+- https://www.ml-exchange.org/models/ has multiple predefined models
+- The CodePen tool lets users edit front-end languages
+
+### Rest API
+
+REST API, which stands for Representational State Transfer Application Programming Interface (状态转移应用程序编程接口), is a set of rules and conventions for building and interacting with web services. It is an architectural style that uses standard HTTP methods (such as GET, POST, PUT, DELETE) for communication between clients and servers. RESTful APIs are designed to be scalable, stateless, and flexible.
+
+Key principles of RESTful APIs include:
+
+1. **Resource-Based: 基于资源** Resources, such as data objects or services, are identified by unique URIs (Uniform Resource Identifiers). These resources can be manipulated using standard HTTP methods.
+2. **Stateless:** Each request from a client to a server must contain all the information needed to understand and process the request. The server should not store any information about the client's state between requests.
+3. **Representation:** Resources can have multiple representations (e.g., JSON, XML) that can be negotiated based on the client's needs or preferences.
+4. **Uniform Interface:** A uniform and consistent interface simplifies and decouples the architecture, promoting scalability. This includes a set of standard conventions for resource manipulation.
+
+#### Where to find open source
+
+Open data portal list from around the world: http://datacatalogs.org/
+
+Governmental, intergovernmental and organization websites:
+
+United Nations: http://data.un.org/ USA: https://data.gov Europe: www.europeandataportal.eu/en/
+
+Kaggle: https://www.kaggle.com/datasets
+
+Google dataset search: https://datasetsearch.research.google.com
+
+**Government Data:**
+
+- https://www.census.gov/data.html
+- https://data.gov.uk/
+- https://www.opendatanetwork.com/
+
+**Financial Data Sources:**
+
+- https://data.worldbank.org/
+- https://www.globalfinancialdata.com/
+- https://comtrade.un.org/
+- https://www.nber.org/
+- https://fred.stlouisfed.org/
+
+**Crime Data:**
+
+- https://www.fbi.gov/services/cjis/ucr
+- https://www.icpsr.umich.edu/icpsrweb/content/NACJD/index.html
+- https://www.drugabuse.gov/related-topics/trends-statistics
+- https://www.unodc.org/unodc/en/data-and-analysis/
+
+**Health Data:**
+
+- https://www.who.int/gho/database/en/
+- https://www.fda.gov/Food/default.htm
+- https://seer.cancer.gov/faststats/selections.php?series=cancer
+- https://www.opensciencedatacloud.org/
+- https://pds.nasa.gov/
+- https://earthdata.nasa.gov/
+- https://www.sgim.org/communities/research/dataset-compendium/public-datasets-topic-grid
+
+**Academic and Business Data:**
+
+- https://scholar.google.com/
+- https://nces.ed.gov/
+- https://www.glassdoor.com/research/
+- https://www.yelp.com/dataset
+
+**Other General Data:**
+
+- https://www.kaggle.com/datasets
+- https://www.reddit.com/r/datasets/
+
+### Propriety datasets and sources
+
+Proprietary datasets contain data primarily owned and controlled by specific individuals or organizations. This data is limited in distribution because it is sold with a licensing agreement.
+Some data from private sources cannot be easily disclosed, like public data.
+
+National security data, geological, geophysical, and biological data are examples of propriety data. Copyright laws or patents usually bind this type of data. Proprietary datasets that mainly contain sensitive information are less widely available than open datasets.
+
+Some standard propriety dataset sources are listed below.
+
+**Health Care:**
+
+https://www.sgim.org/communities/research/dataset-compendium/proprietary-datasets
+
+**Financial Market data:**
+
+https://datarade.ai/data-categories/proprietary-market-data
+
+**Google Cloud based datasets:**
+
+https://cloud.google.com/datasets
+
+**IBM datasets:**
+
+https://developer.ibm.com/exchanges/data/
+
+#### Models:
+
+https://www.ml-exchange.org/models/
+
+## Module 4
+
+### Jupyter Kernel
+
+The kernel acts like a computational engine and executes the code in a Notebook file
+
+Jupyter Notebook supports different languages
+
+### Jupyter Architecture
+
+- ﻿﻿Jupyter implements a two-process model with a kernel and a client
+- ﻿﻿The Notebook server is responsible for saving and loading the notebooks
+- ﻿﻿The kernel executes the cells of code contained in the Notebook
+- ﻿﻿The Jupter architecture uses the NB convert tool to convert files to other formats
+
+### Anaconde Jupyter 
+
+- ﻿﻿Jupyter is a popular computational notebook tool because it supports dozens of programming languages
+- ﻿﻿The Anaconda Navigator GUI can launch multiple applications on a local device
+- ﻿﻿Jupyter environments in the Anaconda Navigator include JupyterLab and VS Code
+
+### JupyterLab
+
+- Allows access to multiple Jupyter Notebook files, other code, and data files Enables working in an integrated manner
+
+- Is compatible with several file formats
+
+- Is an open source
+
+## Module 5
+
+### What is R?
+
+- Statistical programming language 
+
+- Used for data processing and manipulation
+
+- Statistical, data analysis, and machine learning
+
+- R is used most by academics, healthcare and the government
+
+- R supports importing of data from different sources: Flat files, databases, web, statistical software
+
+| name    | fun                 |
+| ------- | ------------------- |
+| dplyr   | Data Manipulation   |
+| stringr | String Manipulation |
+| ggplot  | Data Visualization  |
+| caret   | Machine Learning    |
+
+To install packages, use the command: install.packages <package name>
+
+Packages are:
+
+- ﻿﻿ggplot: Histograms, bar charts, scatterplots
+- ﻿﻿Plotly: Web-based data visualizations
+- ﻿﻿Lattice: Complex, multi-variable data sets
+- ﻿﻿Leaflet: Interactive plots
+
+### Data Visualization in R
+
+- ﻿﻿Popular data visualization packages in R
+- ﻿﻿Plotting with the inbuilt R plot function
+- ﻿﻿Plotting with ggplot
+- ﻿﻿Adding titles and changing the axis names using the ggtitle and lab's
+   function
+
+```R
+library (datasets)
+data(iris)
+View(iris)
+
+unique(iris$Species)
+```
+
+### Github﻿﻿
+
+**SSH protocol** - A method for secure remote login from one computer to another.
+
+**Repository** - The folders of your project that are set up for version control.
+
+**Fork** - A copy of a repository.
+
+**Pull request** - The process you use to request that someone reviews and approves your changes before they become final.
+
+**Working directory** - A directory on your file system, including its files and subdirectories, that is associated with a git repository.
+
+- GitHub is the online hosting service for Git repositories
+- ﻿﻿Repositories
+- ﻿﻿Store documents including source code
+- ﻿﻿Enable version control
+- ﻿﻿Git
+- ﻿﻿Distributed version-control system
+- ﻿﻿Focused on tracking source code during development
+- ﻿﻿Supports non-linear workflows
+
+1. create a new local repository using **git init**
+2. create and add a file to the repo using **git add**
+3. commit changes using **git commit**
+4. create a branch using **git branch**
+5. switch to a branch using **git checkout**
+6. check the status of files changed using **git status**
+7. review recent commits using **git log**
+8. revert changes using **git revert**
+9. get a list of branches and active branch using **git branch**
+10. merge changes in your active branch into another branch using **git merge**
+
+### Summary
+
+- ﻿﻿A branch is a snapshot of your repository to which you can make changes
+- ﻿﻿A pull request is a way to notify other team members of the changes and edits to the main branch
