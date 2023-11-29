@@ -5,7 +5,7 @@
 - In classification, it assigns the majority class among the k-nearest neighbors to a new data point. 
 - In regression, it predicts a continuous value based on the average or weighted average of the k-nearest neighbors.
 
-<img src="/Users/heng/Documents/IBM-DS-Certificate/img/image-20231128133922817.png" alt="image-20231128133922817" style="zoom:50%;" />
+<img src="./img/image-20231128133922817.png" alt="image-20231128133922817" style="zoom:50%;" />
 
 ## Classification Accuracy:
 
