@@ -1,3 +1,16 @@
+# Machine Learning
+
+### Major machine learning techniques
+
+- ﻿﻿Regression/Estimation
+  - ﻿﻿Predicting continuous values
+- ﻿﻿Classification
+  - ﻿﻿Predicting the item class/category of a case
+- ﻿Clustering
+  - ﻿﻿Finding the structure of data; summarization
+- ﻿﻿Associations
+  - ﻿﻿Associating frequent co-occurring items/events
+
 ### K-Nearest Neighbors algorithm
 
  kNN can be used for both classification and regression prediction tasks. In the case of a continuous target, the prediction is taken as the average or median of the nearest neighbours.
@@ -140,3 +153,48 @@ Disadvantages:﻿
 - ﻿﻿Sentiment analysis
 - ﻿﻿Gene Expression Classification
 - ﻿﻿Regression, outlier detection and clustering
+
+## K-Means
+
+How is a center point (**centroid**) picked for each cluster in k-means upon **initialization**?
+
+- We can create some random points as centroids of the clusters.
+
+- We can randomly place k centroids, one for each cluster. Each data point is then assigned to its closest centroid.
+
+####  Three distinct types of clustering algorithms
+
+1. **Partition-Based Clustering:** 
+
+   - **Example Algorithm:** K-Means, K-Medoids
+   - **Basic Idea:** Divides the dataset into non-overlapping subsets or clusters.
+   - **How it Works:** Iteratively assigns data points to clusters and adjusts cluster centroids or medoids to minimize the within-cluster sum of distances.
+   - **Advantages:** Efficient and scalable for large datasets, works well with globular clusters.
+   - **Disadvantages:** Sensitive to initial cluster centers, may not handle non-globular shapes well.
+   - **Partition-based clustering produces sphere-like clusters.**
+
+   This statement is generally correct, particularly in the context of algorithms like K-Means, which tends to create spherical or isotropic clusters.
+
+2. **Hierarchical Clustering:**
+
+   - **Example Algorithm:** Agglomerative, Divisive
+   - **Basic Idea:** Creates a tree of clusters (dendrogram) representing a hierarchy of nested clusters.
+   - **How it Works:** Agglomerative starts with individual data points as clusters and merges them iteratively, while divisive starts with one cluster and splits it until each data point is its own cluster.
+   - **Advantages:** Provides a hierarchy of clusters, doesn't require specifying the number of clusters beforehand.
+   - **Disadvantages:** Computationally intensive for large datasets, harder to interpret for a large number of data points.
+
+3. **Density-Based Clustering:**
+
+   - **Example Algorithm:** DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
+   - **Basic Idea:** Identifies clusters based on areas of higher data point density separated by areas of lower density.
+   - **How it Works:** Groups data points that are close to each other and have a minimum number of neighbors within a specified distance.
+   - **Advantages:** Can discover clusters of arbitrary shapes, robust to noise and outliers.
+   - **Disadvantages:** Sensitive to parameter settings, may struggle with varying density clusters.
+
+In summary, partition-based clustering divides the dataset into non-overlapping subsets, hierarchical clustering builds a tree of nested clusters, and density-based clustering identifies clusters based on areas of higher data point density. The choice of which algorithm to use depends on the nature of the data and the specific requirements of the clustering task.
+
+
+
+When K increases, **It will decrease because the distance between data points and centroids will decrease.**
+
+As the parameter K (the number of clusters) increases in k-means clustering, the algorithm tends to create more clusters, which can result in smaller and more compact clusters. This, in turn, reduces the average distance between data points and their respective cluster centroids, leading to a decrease in the error or the within-cluster sum of squares (WCSS).
