@@ -12,4 +12,4 @@
 
 Finish 10 courses in 6 weeks.
 
-![certification](../../BrainStation-SoftwareEngineer/img/certification.png)
+![certification](img/certification.png)
